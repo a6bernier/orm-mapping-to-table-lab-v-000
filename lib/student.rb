@@ -40,6 +40,10 @@ class Student
     @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students").flatten.first
   end
 
+  def self.create
+
+  end
+
 
 
 end
